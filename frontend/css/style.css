@@ -8,11 +8,11 @@
   --font-primary: "Press Start 2P", sans-serif;
   --font-secondary: "Rubik Mono One", serif;
   --font-code: "Concert One", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
+  --bg-color: hsl(199, 75%, 46%);
+  --bg-color-transparent: hsla(199, 75%, 46%, 0.164);
   --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --btn-bg-color: #4cf808b4;
+  --accent-color: rgb(248, 20, 229);
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
