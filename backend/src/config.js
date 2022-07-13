@@ -11,7 +11,6 @@ const namePrefix = "BasedWhales";
 const description = "BasedWhales is a collection of uniquely designed artwork. Our aim is to unite the crypto community, and inspire a sense joyous amusement to see us through the bear market. Established or aspiring whales, everyone is welcome! We will come out the other side stronger, toegether, and completely BASED AF"
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
-// If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
     growEditionSizeTo: 5000,
@@ -42,7 +41,7 @@ const extraMetadata = {};
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'BasedWhales';
@@ -80,7 +79,7 @@ try {
     `${basePath}/build/contract/_contract.json`
   );
   const contractData = JSON.parse(rawContractData);
-  if (contractData.response === "OK" && contractData.error === null) {
+  if (contractData.response === "OK") {
     CONTRACT_ADDRESS = contractData.contract_address;
   }
 } catch (error) {
