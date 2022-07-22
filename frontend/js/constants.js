@@ -1,12 +1,12 @@
-const contractAddress = "0xcad8f5eab448c572e3fbe000e518166d2c808cc8"; //Replace with your own contract address
+const contractAddress = "0xfe7b850ce01c1664aecf40959876719e84da1f2b"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to BasedWhales!";
+const welcome_h1 = "Based";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = 'BasedWhales is a collection of uniquely designed artwork. Our aim is to unite the crypto community, and inspire a sense joyous amusement to see us through the bear market. Established or aspiring whales, everyone is welcome! We will come out the other side stronger, toegether, and completely BASED AF.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
-const h1_presale_mint = "Pre-Sale Minting Open!!";
-const h1_public_mint = "Public Minting Open!!";
+const h1_presale_mint = "Pre-Sale Minting Open!";
+const h1_public_mint = "Public Minting Open!";
 const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
 const h2_presale_mint = "Public Minting Countdown";
 const p_presale_coming_soon = "We are working hard to launch the NFT Collection. Stay tuned for updates!";
